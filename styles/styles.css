@@ -88,3 +88,27 @@
   .Truck > img {
     max-width: 100%;
   }
+  .Cookie > img {
+    max-width: 10%;
+  }
+  @media (min-width: 800px) {
+    .Cookie1 >img {
+        float: left;
+        max-width: auto;
+        max-height:90px;
+    }
+    .Cookie2 >img {
+      float: right;
+      max-width: auto;
+      max-height:90px;
+
+    }
+  }
+  @media (max-width: 800px) {
+    .Cookie1 > img {
+      display:none;
+    }
+    .Cookie2 > img {
+      display:none;
+    }
+  }
